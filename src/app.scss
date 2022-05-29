@@ -1,55 +1,129 @@
 @font-face {
   font-family: 'lale_zar';
-  src: local('lale_zar'), url(./assets/fonts/lale-zar/Lalezar-Regular.ttf) format('truetype');
+  src: local('lale_zar'),
+    url(./assets/fonts/lale-zar/Lalezar-Regular.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'vazir';
+  src: local('Vazir-Code'),
+    url(./assets/fonts/vazir/Vazir-Code.ttf) format('truetype');
+}
+
 body {
   box-sizing: border-box;
-  background-color: #F6F6F6;
-
-
+  background-color: #f6f6f6;
 }
 
 .my-irancell-page {
   font-family: lale_zar;
   display: flex;
+  gap: 1rem;
+
+  main {
+    flex-grow: 8;
+    h1 {
+      font-size: 23;
+      font-weight: 400;
+    }
+
+    .header {
+      position: relative;
+      top: 0;
+
+      span{
+        position: absolute;
+        bottom: 1.5rem;
+        left: 16px;
+        display:flex ;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(253, 200, 22, 1)       ;
+        color:white;
+        width: 82px;
+        height: 26px;
+        border-radius: 3px;
+        font-size: 12px;
+        padding: 3px 6px;
+      }
+      p {
+        position: absolute;
+        bottom: 2.5rem;
+        left: 16px;
+        font-size: 23px;
+      }
+    }
+
+    table{
+      font-family: vazir;
+    }
+    .buy-button{
+      width: 73px;
+      height: 30px;
+      border-radius: 5px;
+      color:white;
+      background-color: rgba(253, 200, 22, 1);
+      border: none;
+      outline: none;
+      font-size: 1rem;
+    }
+  }
+
+  aside {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0 1rem 1rem;
+
+    .info-card {
+      border-radius: 25px;
+      width: 331px;
+      height: 93px;
+      color: rgba(129, 129, 129, 1);
+      margin-bottom: 9px;
+      display: flex;
+      align-items: center;
+      background-color: #ffff;
+      justify-content: flex-end;
+
+      img {
+        margin: 1rem 1.25rem;
+      }
+      section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+      }
+
+      h1 {
+        font-weight: 300;
+        font-size: 15px;
+      }
+
+      p {
+        font-weight: 700;
+        font-size: 12px;
+      }
+    }
+
+    .sim-card-info {
+      width: 331px;
+      border-radius: 13px;
+      background-color: white;
+      flex-grow: 4;
+      height: 80vh;
+
+      .download-our-app {
+        border-radius: 8px;
+        width: 288px;
+        height: 104px;
+      }
+    }
+  }
 
   .side-bar {
-    background-color: red;
+    flex-grow: 1;
+    background-color: white;
     width: 280px;
-    height: 100vh;
-    position: absolute;
-    right: 0;
-  }
-
-  .info-card {
-    border-radius: 25px;
-    width: 331px;
-    height: 93px;
-    color: #818181;
-    margin-bottom: 9px;
-   display: flex;
-   flex-direction: column;
-   align-items: flex-end;
-
-    h1 {
-      font-weight: 300;
-      font-size: 15px;
-    }
-
-    p {
-      font-weight: 700;
-      font-size: 12px;
-    }
-  }
-
-  .sim-card-info {
-    width: 331px;
-    border-radius: 13px;
-
-    .download-our-app {
-      border-radius: 8px;
-      width: 288px;
-      height: 104px;
-    }
+    // height: 100vh;
   }
 }
