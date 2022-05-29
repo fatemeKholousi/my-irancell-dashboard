@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'lale_zar';
+  src: local('lale_zar'), url(./assets/fonts/lale-zar/Lalezar-Regular.ttf) format('truetype');
+}
+body {
+  box-sizing: border-box;
+  background-color: #F6F6F6;
+
+
+}
+
+.my-irancell-page {
+  font-family: lale_zar;
+  display: flex;
+
+  .side-bar {
+    background-color: red;
+    width: 280px;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+  }
+
+  .info-card {
+    border-radius: 25px;
+    width: 331px;
+    height: 93px;
+    color: #818181;
+    margin-bottom: 9px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+
+    h1 {
+      font-weight: 300;
+      font-size: 15px;
+    }
+
+    p {
+      font-weight: 700;
+      font-size: 12px;
+    }
+  }
+
+  .sim-card-info {
+    width: 331px;
+    border-radius: 13px;
+
+    .download-our-app {
+      border-radius: 8px;
+      width: 288px;
+      height: 104px;
+    }
+  }
+}
