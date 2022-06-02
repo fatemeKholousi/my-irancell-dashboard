@@ -27,7 +27,7 @@ function SideBar() {
    
 
    <div style={{display:"flex",flexDirection:"column",alignItems:"flex-end",marginRight:68}}>
-   <div style={{width:"100%"}}>
+   <div style={{width:"100%",marginBottom:40}}>
 
 
         <div className="side-bar--sub-menu main-page-button">
