@@ -32,7 +32,6 @@ function App() {
           </h1>
           <LineChart />
         </div>
-
         <SuggestPackages />
       </main>
       <SideBar />
