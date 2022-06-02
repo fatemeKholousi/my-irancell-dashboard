@@ -23,12 +23,12 @@ function SuggestPackages() {
   ]
   return (
     <div className="suggest-packages">
-      <h1 style={{ float: 'right', padding: '0 20px 0 16px',fontSize:20 }}>
+      <h1 style={{ float: 'right', padding: '0 20px 0 16px', fontSize: 20 }}>
         !بسته های پیشنهادی مخصوص خود شما
       </h1>
-      <table dir="rtl" >
-        <tr style={{textAlign:"right", marginRight:33}}>
-          <th style={{paddingRight:33}}>تاریخ انقضا بسته</th>
+      <table dir="rtl">
+        <tr style={{ textAlign: 'right', marginRight: 33 }}>
+          <th style={{ paddingRight: 33 }}>تاریخ انقضا بسته</th>
           <th>نام بسته</th>
           <th>تخفیف</th>
           <th>قیمت</th>
@@ -37,9 +37,9 @@ function SuggestPackages() {
         <tbody>
           {mockRowData.map((item) => (
             <tr>
-              <td  style={{paddingRight:33}}>{item.date}</td>
+              <td style={{ paddingRight: 33 }}>{item.date}</td>
               <td>{item.packageTime}</td>
-              <td >{item.off}</td>
+              <td>{item.off}</td>
               <td>{item.sum}</td>
               <td>
                 <button className="buy-button">خرید</button>
