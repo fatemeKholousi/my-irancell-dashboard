@@ -27,11 +27,15 @@ function SideBar() {
    
 
    <div style={{display:"flex",flexDirection:"column",alignItems:"flex-end",marginRight:68}}>
-   <div style={{marginBottom:40}}>
+   <div style={{width:"100%"}}>
+
+
         <div className="side-bar--sub-menu main-page-button">
+          <div className="active-border"  ></div>
           <p className="side-bar--active-option">صفحه اصلی</p>
           <MdOutlineHome color="#FDC816" size={20} />
         </div>
+
         <p className='sub-title'>سرویس ها</p>
 
         <div className="side-bar--sub-menu">

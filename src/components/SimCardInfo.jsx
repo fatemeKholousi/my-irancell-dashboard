@@ -65,8 +65,8 @@ function SimCardInfo() {
               <MdOutlineMailOutline color="rgba(253, 200, 22, 1)" size={20} />
             </div>
             <div>
-              <p>بسته پیامک هفتگی</p>
-              <p>تا تاریخ31 خرداد1400</p>
+              <p className='sub-text'>بسته پیامک هفتگی</p>
+              <p className='sub-text'>تا تاریخ31 خرداد1400</p>
             </div>
           </section>
           <section>
@@ -74,8 +74,8 @@ function SimCardInfo() {
               <MdOutlineWifi color="rgba(253, 200, 22, 1)" size={20} />
             </div>
             <div>
-              <p>بسته اینترنت ماهانه</p>
-              <p>تا تاریخ 12خرداد 1400</p>
+              <p className='sub-text'>بسته اینترنت ماهانه</p>
+              <p className='sub-text'>تا تاریخ 12خرداد 1400</p>
             </div>
           </section>
         </div>
