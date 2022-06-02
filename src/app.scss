@@ -113,7 +113,7 @@ body {
       height: 80vh;
       display: flex;
       flex-direction: column;
-justify-content: space-between;
+      justify-content: space-between;
       section {
         display: flex;
         flex-direction: row-reverse;
@@ -140,8 +140,7 @@ justify-content: space-between;
         border-radius: 8px;
         width: 288px;
         height: 104px;
-        margin:22px;
-  
+        margin: 22px;
       }
     }
   }
@@ -152,10 +151,9 @@ justify-content: space-between;
     width: 280px;
     display: flex;
     flex-direction: column;
-    .main-page-button{
+    .main-page-button {
       border-left: #fdc816 3px solid;
-      padding-left:113px
-
+      padding-left: 113px;
     }
     &--active-option {
       font-weight: 700;
@@ -255,9 +253,9 @@ justify-content: space-between;
   }
 }
 
-.sub-title{
+.sub-title {
   font-size: 12px;
-  font-family:vazir ;
-  color:#E7E7E7;
+  font-family: vazir;
+  color: #e7e7e7;
   text-align: right;
 }
