@@ -1,5 +1,5 @@
 import React from 'react'
-import AvatarCard from '../assets/images/avatar.png'
+import AvatarCard from '../assets/images/avatar.jpg'
 
 function InfoCard() {
   return (
