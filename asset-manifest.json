@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/my-irancell-dashboard/static/css/main.37e22310.css",
-    "main.js": "/my-irancell-dashboard/static/js/main.ae905dc8.js",
-    "static/js/787.d6d542cb.chunk.js": "/my-irancell-dashboard/static/js/787.d6d542cb.chunk.js",
-    "static/media/Lalezar-Regular.ttf": "/my-irancell-dashboard/static/media/Lalezar-Regular.241ca811c53de4ed36a4.ttf",
-    "static/media/Vazir-Code.ttf": "/my-irancell-dashboard/static/media/Vazir-Code.cefb50bf5c998486d35a.ttf",
-    "static/media/avatar.jpg": "/my-irancell-dashboard/static/media/avatar.aaf6945670e5019eba02.jpg",
-    "static/media/header-img.png": "/my-irancell-dashboard/static/media/header-img.973903bc16d277a572cf.png",
-    "index.html": "/my-irancell-dashboard/index.html",
-    "main.37e22310.css.map": "/my-irancell-dashboard/static/css/main.37e22310.css.map",
-    "main.ae905dc8.js.map": "/my-irancell-dashboard/static/js/main.ae905dc8.js.map",
-    "787.d6d542cb.chunk.js.map": "/my-irancell-dashboard/static/js/787.d6d542cb.chunk.js.map"
+    "main.css": "/static/css/main.08ef30dd.css",
+    "main.js": "/static/js/main.9d37c157.js",
+    "static/js/787.d6d542cb.chunk.js": "/static/js/787.d6d542cb.chunk.js",
+    "static/media/Lalezar-Regular.ttf": "/static/media/Lalezar-Regular.241ca811c53de4ed36a4.ttf",
+    "static/media/Vazir-Code.ttf": "/static/media/Vazir-Code.cefb50bf5c998486d35a.ttf",
+    "static/media/avatar.jpg": "/static/media/avatar.aaf6945670e5019eba02.jpg",
+    "static/media/header-img.png": "/static/media/header-img.973903bc16d277a572cf.png",
+    "index.html": "/index.html",
+    "main.08ef30dd.css.map": "/static/css/main.08ef30dd.css.map",
+    "main.9d37c157.js.map": "/static/js/main.9d37c157.js.map",
+    "787.d6d542cb.chunk.js.map": "/static/js/787.d6d542cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37e22310.css",
-    "static/js/main.ae905dc8.js"
+    "static/css/main.08ef30dd.css",
+    "static/js/main.9d37c157.js"
   ]
 }
