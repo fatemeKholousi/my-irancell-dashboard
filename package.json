@@ -2,7 +2,7 @@
   "name": "my-iracncell",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://fatemekholousi.github.io",
+  "homepage": "https://fatemekholousi.github.io/my-irancell-dashboard/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
