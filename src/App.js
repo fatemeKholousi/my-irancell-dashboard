@@ -17,7 +17,7 @@ function App() {
       </aside>
 
       <main>
-        <h1>صفحه اصلی</h1>
+        <h1 style={{textAlign:"right",marginRight:"1rem",fontSize:"23px",fontWeight:400}}>صفحه اصلی</h1>
         <HeaderCard />
         <div
           style={{
@@ -27,7 +27,7 @@ function App() {
             height: 400,
           }}
         >
-          <h1 style={{ float: 'right', padding: '0 20px 20px 14px' }}>
+          <h1 style={{ float: 'right', padding: '0 20px 20px 14px',fontSize:20 }}>
             نمودار میزان مصرف کل
           </h1>
           <LineChart />

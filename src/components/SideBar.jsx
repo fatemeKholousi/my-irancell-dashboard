@@ -15,18 +15,24 @@ import SideHeaderImage from '../assets/images/side-header.png'
 
 function SideBar() {
   return (
-    <div className="my-irancell-page side-bar">
-      <img src={SideHeaderImage} alt="side-header" width={152} height={37} />
+    <div className="side-bar">
+      <div style={{display:"flex",flexDirection:"column",alignItems:"center"}}>
+           <img src={SideHeaderImage} alt="side-header" width={152} height={37} style={{margin:"24px 0 60px 0"}}/>
+
       <div className="search-box">
         <input type="text" placeholder="جستجو" dir="rtl" />
         <FiSearch color="#E7E7E7" />
       </div>
-      <div>
-        <div className="side-bar--sub-menu">
+      </div>
+   
+
+   <div style={{display:"flex",flexDirection:"column",alignItems:"flex-end",marginRight:68}}>
+   <div style={{marginBottom:40}}>
+        <div className="side-bar--sub-menu main-page-button">
           <p className="side-bar--active-option">صفحه اصلی</p>
           <MdOutlineHome color="#FDC816" size={20} />
         </div>
-        <p>سرویس ها</p>
+        <p className='sub-title'>سرویس ها</p>
 
         <div className="side-bar--sub-menu">
           <p>شارژ سیمکارت</p>
@@ -48,7 +54,7 @@ function SideBar() {
           <MdSettingsOverscan color="#818181" size={20} />
         </div>
 
-        <p> مدیریت</p>
+        <p className='sub-title'> مدیریت</p>
 
         <div className="side-bar--sub-menu">
           <p> مدیریت خدمات</p>
@@ -61,6 +67,7 @@ function SideBar() {
         </div>
       </div>
 
+
       <div className="side-bar--sub-menu">
         <p> سوالات متداول</p>
         <MdListAlt color="#818181" size={20} />
@@ -70,6 +77,8 @@ function SideBar() {
         <p> ارتباط با ما</p>
         <MdLocationOn color="#818181" size={20} />
       </div>
+   </div>
+  
     </div>
   )
 }

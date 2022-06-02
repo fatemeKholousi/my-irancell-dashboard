@@ -152,8 +152,12 @@ justify-content: space-between;
     width: 280px;
     display: flex;
     flex-direction: column;
-    &--active-option {
+    .main-page-button{
       border-left: #fdc816 3px solid;
+      padding-left:113px
+
+    }
+    &--active-option {
       font-weight: 700;
       font-size: 15px;
       color: #626161;
@@ -161,7 +165,7 @@ justify-content: space-between;
     &--sub-menu {
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-end;
       gap: 11px;
       font-size: 15px;
       font-weight: 300;
@@ -181,7 +185,7 @@ justify-content: space-between;
     border: 1px solid rgba(235, 235, 235, 1);
     border-collapse: separate;
     border-radius: 9px;
-    width: 100%;
+    width: 95%;
     margin: 16px;
     font-family: vazir;
 
@@ -249,4 +253,11 @@ justify-content: space-between;
     font-size: 1rem;
     color: rgba(231, 231, 231, 1);
   }
+}
+
+.sub-title{
+  font-size: 12px;
+  font-family:vazir ;
+  color:#E7E7E7;
+  text-align: right;
 }
