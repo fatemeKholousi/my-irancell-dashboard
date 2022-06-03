@@ -9,24 +9,17 @@ import Header from './components/header/Header'
 
 const App = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        height: '100vh',
-        background: 'rgba(246, 246, 246, 1)',
-        
-      }}
-    >
-      <div style={{ flexGrow: 1.5, flexBasis: 50,marginLeft:'1rem' }}>
+    <div className='app' >
+      <div className='left'>
         <UserCard />
         <PanelBar />
       </div>
-      <div style={{ width: '55vw',margin:'0 1rem' }}>
+      <div className='center'>
         <Header/>
         <LineChart />
         <PackageTable/>       
       </div>
-      <div style={{ flexGrow:1.5, flexBasis: 150 }}>
+      <div className='right'>
         <SideBar />
       </div>
     </div>
