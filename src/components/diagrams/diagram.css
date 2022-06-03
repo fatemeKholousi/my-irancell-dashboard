@@ -1,14 +1,40 @@
-.doughnut-chart{
-    position: relative;
+.doughnut-chart-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.doughnut-chart p{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color:rgba(0, 163, 255, 1);
-    font-size: 1rem;
-    font-weight: 700;
-    font-family: VazirFDWOL;
-    direction: rtl;
+.doughnut-chart-wrapper p {
+font-family: laleZarRegular;
+font-size: 20px;
+color:black
+}
+
+.doughnut-chart {
+  position: relative;
+  font-family: VazirFDWOL;
+}
+
+.doughnut-chart p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(0, 163, 255, 1);
+  font-size: 1rem;
+  font-weight: 700;
+  direction: rtl;
+
+}
+.doughnut-chart-wrapper caption {
+  background-color: #fdc816;
+  color: azure;
+  width: 139px;
+  height: 29px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: laleZarRegular;
+  font-size: 1rem;
+  margin-top: 1rem;
 }

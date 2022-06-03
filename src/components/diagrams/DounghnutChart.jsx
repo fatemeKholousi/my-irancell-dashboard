@@ -22,10 +22,15 @@ export const data = {
 
 function DoughnutChart({ width }) {
   return (
+    <div className='doughnut-chart-wrapper'>
+      <p>شارژ باقی مانده سیمکارت</p>
     <div style={{ width }} className="doughnut-chart">
       <p>6000 تومان</p>
       <Doughnut data={data} options={options} />
     </div>
+       <caption>!سیمکارتت رو شارژ کن</caption>
+       </div>
+
   )
 }
 
