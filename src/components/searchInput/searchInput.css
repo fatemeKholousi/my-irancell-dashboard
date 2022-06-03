@@ -1,0 +1,19 @@
+.search-input{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border:1px solid rgba(231, 231, 231, 1);
+    width: 208px;
+    height:48px;
+    border-radius: 10px;
+}
+.search-input input{
+    outline: none;
+    border:none;
+    text-align:right;
+
+}
+::placeholder {
+    color: rgba(231, 231, 231, 1);
+    padding:10px
+  }

@@ -14,6 +14,7 @@ const data = {
   labels: Object.keys(dataObj),
   datasets: [
     {
+
       data: Object.values(dataObj),
       label: 'میزان مصرف',
       backgroundColor: 'rgba(253, 200, 22,0.3) ',
@@ -24,7 +25,13 @@ const data = {
 }
 
 function LineChart(props) {
-  return <Line data={data} {...props} />
+  return <div className='line-chart-wrapper'>
+    <p >
+      نمودار میزان مصرف کل
+    </p>
+     <Line height={100} data={data} {...props} />
+  </div>
+ 
 }
 
 export default LineChart

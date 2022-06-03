@@ -25,6 +25,7 @@ color:black
   direction: rtl;
 
 }
+
 .doughnut-chart-wrapper caption {
   background-color: #fdc816;
   color: azure;
@@ -37,4 +38,16 @@ color:black
   font-family: laleZarRegular;
   font-size: 1rem;
   margin-top: 1rem;
+}
+
+.line-chart-wrapper{
+  background-color: white;
+  border-radius: 1rem;
+}
+.line-chart-wrapper p{
+  padding: 1rem;
+  font-size: 20px;
+  text-align: right;
+  font-family: laleZarRegular;
+
 }
