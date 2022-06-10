@@ -6,7 +6,7 @@ import "./userCard.css"
 function UserCard() {
   return (
     <div className='user-card'>
-        <TextCard userCard={true} text1='سلام، حسین احمدپناه' text2='+98 0919191991' icon={<img src={PersonImage}/>} />
+        <TextCard userCard={true} text1='سلام، غزاله سلام پارمیدا' text2='+98 0919191991' icon={<img src={PersonImage}/>} />
     </div>
   )
 }
