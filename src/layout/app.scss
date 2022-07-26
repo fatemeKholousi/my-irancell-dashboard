@@ -28,13 +28,10 @@ body {
 
 .app {
   display: flex;
-  // height: 100vh;
   background-color: rgba(246, 246, 246, 1);
   .left {
     display: flex;
     flex-direction: column;
-    //  flex-grow: 1.5;
-    // flex-basis: 50;
     margin-left: 1rem;
   }
   .center {
@@ -44,5 +41,6 @@ body {
   .right {
     width: 20vw;
     flex-grow: 1.5;
+    display: flex;
   }
 }

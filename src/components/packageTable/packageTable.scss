@@ -1,0 +1,52 @@
+.package-table-wrapper {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: white;
+  border-radius: 1rem;
+  padding:2.5rem 2.5rem 2.5rem 3.5rem;
+  
+  p{
+    font-family: laleZarRegular;
+    font-size: 20px;
+  }
+  .package-table {
+    display: flex;
+    justify-content: center;
+    border-collapse: separate;
+    border: 1px solid rgba(235, 235, 235, 1);
+    border-radius: 10px;
+    width: 96%;
+    font-size: 0.85rem;
+    padding: 20px;
+    color:rgba(129, 129, 129, 1);
+    button {
+      background-color: rgba(253, 200, 22, 1);
+      color: white;
+      width: 79px;
+      height: 29px;
+      border: none;
+      border-radius: 5px;
+      font-family: laleZarRegular;
+    }
+  }
+  .rc-table-cell {
+    text-align: center;
+  }
+  
+  .rc-table-thead {
+    height: 50px;
+    font-family: 'vazirBold';
+  }
+  
+  tr.rc-table-row.rc-table-row-level-0 {
+    border: 1px solid black;
+    height: 40px;
+  }
+}
+
+
+
+
+

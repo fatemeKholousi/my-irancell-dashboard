@@ -1,5 +1,5 @@
 import React from 'react'
-import "./textCard.css"
+import "./textCard.scss"
 
 function TextCard({singleTextMode,text1="",text2="",icon='',userCard=false}) {
 

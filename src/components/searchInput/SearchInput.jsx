@@ -1,12 +1,12 @@
 import React from 'react'
 import { MdOutlineSearch } from "react-icons/md";
-import "./searchInput.css"
+import "./searchInput.scss"
 
 function SearchInput() {
   return (
     <div className='search-input'>
         <input type="text" placeholder='جستجو' />
-        <MdOutlineSearch/>
+        <MdOutlineSearch style={{color:'gray'}}/>
     </div>
   )
 }

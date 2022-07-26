@@ -28,7 +28,7 @@ function DoughnutChart({ width }) {
       <p>6000 تومان</p>
       <Doughnut data={data} options={options} />
     </div>
-       <caption>!سیمکارتت رو شارژ کن</caption>
+       <strong>!سیمکارتت رو شارژ کن</strong>
        </div>
 
   )
