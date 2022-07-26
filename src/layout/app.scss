@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'laleZarRegular';
+  src: local('Lalezar-Regular'),
+    url(./fonts/Lalezar-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'vazirBold';
+  src: local('Vazir-Bold-FD-WOL'),
+    url(./fonts/Vazir-Bold-FD-WOL.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'vazirCode';
+  src: local('Vazir-Code'), url(./fonts/Vazir-Code.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'VazirFDWOL';
+  src: local('Vazir-FD-WOL'), url(./fonts/Vazir-FD-WOL.ttf) format('truetype');
+}
+
+body {
+  font-family: VazirFDWOL;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: rgba(246, 246, 246, 1);
+}
+
+.app {
+  display: flex;
+  // height: 100vh;
+  background-color: rgba(246, 246, 246, 1);
+  .left {
+    display: flex;
+    flex-direction: column;
+    //  flex-grow: 1.5;
+    // flex-basis: 50;
+    margin-left: 1rem;
+  }
+  .center {
+    width: 55vw;
+    margin: 0 1rem;
+  }
+  .right {
+    width: 20vw;
+    flex-grow: 1.5;
+  }
+}

@@ -3,7 +3,7 @@ import SearchInput from '../searchInput/SearchInput'
 import TextCard from '../textCards/TextCard'
 import MyIrancellImage from './myIrancell.png'
 import { MdHomeFilled ,MdAreaChart,MdLibraryAdd,MdOutlineAnalytics,MdContactPhone,MdQuestionAnswer,MdAnalytics,MdWindow} from "react-icons/md";
-import "./sideBar.css"
+import "./sideBar.scss"
 
 function SideBar() {
   return (
