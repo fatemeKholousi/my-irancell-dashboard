@@ -27,8 +27,16 @@ body {
 }
 
 .app {
-  display: flex;
   background-color: rgba(246, 246, 246, 1);
+  display: flex;
+  @media (min-width:0){    flex-direction: column;
+
+  }
+  @media (min-width:768px){
+    flex-direction: row;
+
+  }
+
   .left {
     display: flex;
     flex-direction: column;
