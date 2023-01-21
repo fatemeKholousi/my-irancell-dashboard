@@ -62,7 +62,7 @@ function PackageTable() {
   return (
     <div className="package-table-wrapper">
       <p>!بسته های پیشنهادی مخصوص خود شما</p>
-      <Table columns={columns} data={data} className="package-table" />
+      <Table columns={columns} data={data} className="package-table" rowKey='suggestions' />
     </div>
   )
 }

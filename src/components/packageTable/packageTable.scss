@@ -6,6 +6,7 @@
   background-color: white;
   border-radius: 1rem;
   padding:2.5rem 2.5rem 2.5rem 3.5rem;
+  min-width:300px ;
   
   p{
     font-family: laleZarRegular;
@@ -17,10 +18,10 @@
     border-collapse: separate;
     border: 1px solid rgba(235, 235, 235, 1);
     border-radius: 10px;
-    width: 96%;
     font-size: 0.85rem;
     padding: 20px;
     color:rgba(129, 129, 129, 1);
+    overflow-x: scroll;
     button {
       background-color: rgba(253, 200, 22, 1);
       color: white;
@@ -33,6 +34,7 @@
   }
   .rc-table-cell {
     text-align: center;
+    font-size: 0.65rem;
   }
   
   .rc-table-thead {

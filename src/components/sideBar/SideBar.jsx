@@ -8,7 +8,7 @@ import "./sideBar.scss"
 function SideBar() {
   return (
     <div className='side-bar-wrapper'>
-        <img src={MyIrancellImage} alt=''/>
+        <img src={MyIrancellImage} alt='irancell'/>
         <SearchInput/>
         <div className='routes'> 
         <TextCard singleTextMode={true} text1="صفحه اصلی" icon={<MdHomeFilled/>}/>

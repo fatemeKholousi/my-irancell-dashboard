@@ -29,26 +29,33 @@ body {
 .app {
   background-color: rgba(246, 246, 246, 1);
   display: flex;
-  @media (min-width:0){    flex-direction: column;
+  @media (min-width:0){    
+    flex-direction: column;
 
   }
   @media (min-width:768px){
     flex-direction: row;
-
   }
 
   .left {
-    display: flex;
-    flex-direction: column;
-    margin-left: 1rem;
+    @media (min-width:768px){
+      display: flex;
+      flex-direction: column;
+      margin-left: 1rem;
+    }
   }
+
   .center {
-    width: 55vw;
-    margin: 0 1rem;
+    @media (min-width:768px){
+      width: 55vw;
+      margin: 0 1rem;
+    }
   }
   .right {
-    width: 20vw;
-    flex-grow: 1.5;
-    display: flex;
+    @media (min-width:768px){
+      width: 20vw;
+      flex-grow: 1.5;
+      display: flex;
+    }
   }
 }
